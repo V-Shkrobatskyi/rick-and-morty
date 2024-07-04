@@ -1,4 +1,5 @@
 from django.urls import path
+
 from characters.views import get_random_character_view, CharacterListView
 
 app_name = "character"
